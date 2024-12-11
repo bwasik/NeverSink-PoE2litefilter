@@ -22,7 +22,7 @@ Show # Runes
 #	SetTextColor 200 0 127 255
 #	SetBorderColor 255 0 127 200
 	SetTextColor 0 240 190
-	SetFontSize 36
+	SetFontSize 30
 	PlayEffect Cyan Temp
 	MinimapIcon 2 Cyan Triangle
 	
@@ -31,7 +31,7 @@ Show # SOUL CORES and TIMELESS JEWELS
 	BaseType "Soul Core" "Timeless"
 	SetTextColor 0 240 190
 	SetBorderColor 0 240 190 255
-	SetFontSize 36
+	SetFontSize 30
 	PlayEffect Cyan Temp
 	MinimapIcon 1 Cyan Triangle
 
@@ -39,20 +39,20 @@ Show # Charms
 	BaseType "Charm"
 	SetTextColor 210 100 255 255
 	SetBorderColor 127 90 255 255
-	SetFontSize 36
+	SetFontSize 30
 
 Show # Trial Coins
 	Class == "Trial Coins" "Inscribed Ultimatum"
 #	BaseType "Barya" "Ultimatum"
 	SetTextColor 0 255 0 255
 	SetBorderColor 0 255 127 200
-	SetFontSize 36
+	SetFontSize 30
 	MinimapIcon 2 Green Square
 	
 Show # Jewels Rare
 	Rarity Rare
 	Class == "Jewels"
-	SetFontSize 36
+	SetFontSize 30
 	SetTextColor 220 220 0 255
 	SetBorderColor 200 240 0 255
 	SetBackgroundColor 120 120 0 225
@@ -61,7 +61,7 @@ Show # Jewels Rare
 Show # Jewels Magic
 	Rarity Normal Magic
 	Class == "Jewels"
-	SetFontSize 36
+	SetFontSize 30
 	SetTextColor 0 75 250 255
 	SetBorderColor 0 100 240 255
 	SetBackgroundColor 0 20 40 255
@@ -71,7 +71,7 @@ Show # RELICS
 	Class "Relic"
 	SetTextColor 255 0 127 255
 	SetBorderColor 255 0 127 200
-	SetFontSize 36
+	SetFontSize 30
 	MinimapIcon 2 Pink Triangle
 	PlayEffect Pink	Temp
 
@@ -168,7 +168,7 @@ Show # Currency TIER 1
 Show # Currency TIER 2
 	Class == "Stackable Currency"
 	BaseType "Chaos Orb" "Vaal Orb" "Orb of Alchemy" "Glassblower's Bauble" "Lesser Jeweller's Orb" "Greater Jeweller's Orb"
-	SetFontSize 36
+	SetFontSize 30
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 249 150 25 255
@@ -179,7 +179,7 @@ Show # Currency TIER 2
 Show # Currency TIER 3
 	Class == "Stackable Currency"
 	BaseType "Exalted Orb" "Regal Orb" "Artificer's Orb"
-	SetFontSize 36
+	SetFontSize 30
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 213 159 0 255
@@ -190,7 +190,7 @@ Show # Currency TIER 3
 Show # Currency TIER 4
 	Class == "Stackable Currency"
 	BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Armourer's Scrap" "Blacksmith's Whetstone" "Arcanist's Etcher"
-	SetFontSize 36
+	SetFontSize 30
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 210 178 135 255
@@ -207,7 +207,7 @@ Show # CURRENCY SHARDS
 Show # ESSENCES
 	Class == "Stackable Currency"
 	BaseType "Essence"
-	SetFontSize 36
+	SetFontSize 30
 	SetTextColor 0 0 0 255
 	SetBorderColor 130 100 150 255
 	SetBackgroundColor 135 180 135 255
@@ -221,7 +221,7 @@ Show # FRAGMENTS
 Show # WAYSTONES
 	BaseType "Waystone"
 	Rarity <= Rare
-	SetFontSize 36
+	SetFontSize 30
 	SetTextColor 255 255 255
 	SetBorderColor 255 255 255
 	PlayAlertSound 4 300
@@ -261,7 +261,7 @@ Show # GOLD Big
 Show # AMULETS RINGS BELTS
 	Class == "Rings" "Amulets" "Belts"
 	Rarity Normal Magic Rare
-	SetFontSize 36
+	SetFontSize 30
 	SetBorderColor 255 0 0 255
 
 
@@ -290,7 +290,7 @@ Show # rares
 	Sockets = 0
 	Quality = 0
 	Rarity Rare
-	SetFontSize 36
+	SetFontSize 30
 	
 Show # Magic
 	Sockets = 0
@@ -326,7 +326,7 @@ Show # RARE
 	#Sockets = "S" "SS" "SSS"
 	Sockets > 0
 	Rarity  Rare
-	SetFontSize 36
+	SetFontSize 30
 	SetBorderColor 255 255 255 255
 
 
@@ -349,7 +349,7 @@ Show # MAGIC
 Show # RARE
 	Quality > 0
 	Rarity  Rare
-	SetFontSize 36
+	SetFontSize 30
 	SetBorderColor 255 255 255 255
 
 	
